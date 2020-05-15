@@ -1,0 +1,32 @@
+^push up snoun
+^Soviet Union snoun
+
+^push ups pnoun
+
+talks with psverb
+talks to psverb
+talks of psverb
+sings with psverb
+sings of psverb
+dances with psverb
+
+talk with ppverb
+talk to ppverb
+talk of ppverb
+sing with ppverb
+sing of ppverb
+dance with ppverb
+
+talked with hsverb
+talked to hsverb
+talked of hsverb
+sang with hsverb
+sang of hsverb
+danced with hsverb
+
+talked with hpverb
+talked to hpverb
+talked of hpverb
+sang with hpverb
+sang of hpverb
+danced with hpverb

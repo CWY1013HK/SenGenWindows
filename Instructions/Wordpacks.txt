@@ -1,0 +1,26 @@
+Wordpacks are the place where you can input different words into the programme. Simply duplicate the default folder and edit it according to the format in order to create one.
+
+Edit in preference.txt or use SetUp in interface in order to modify the wordpack to be used. It will use the wordpack specified last.
+
+Please do not delete the default folder as it's a fallback if it cannot find the wordpack specified.
+
+Wordbase Structure:
+[word] [type]
+
+Word notations:
+^ no need for 'an'
+* need 'an'
+
+Common Types:
+snoun - Single Noun
+pnoun - Plural Noun
+psverb - Present Single Verb
+ppverb - Present Plural Verb
+hsverb - Past Single Verb
+hpverb - Past Plural Verb
+adj - Adjective
+adv - adverb
+
+Note: some of the wordings in the source code are not grammatically correct. Read with caution.
+
+-CWY1013HK, 2020

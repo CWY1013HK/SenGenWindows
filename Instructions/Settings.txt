@@ -1,0 +1,3 @@
+Currently preference only includes wordpack used. To change text-to-speech voice, change it in System Preferences -> Accessibility -> Speech. To change terminal appearance, change it in Terminal -> Preferences -> Profiles.
+
+-CWY1013HK, 2020

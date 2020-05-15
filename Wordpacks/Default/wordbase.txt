@@ -1,0 +1,45 @@
+^man snoun
+^woman snoun
+^teacher snoun
+^student snoun
+^mode snoun
+^Megalomania snoun
+^discipline snoun
+^talk snoun
+*elephant snoun
+^talking snoun
+
+^men pnoun
+^women pnoun
+^teachers pnoun
+^students pnoun
+^teachings pnoun
+^talks pnoun
+*elephants pnoun
+
+teaches psverb
+makes psverb
+exploits psverb
+
+teach ppverb
+make ppverb
+exploit ppverb
+
+taught hsverb
+made hsverb
+exploited hsverb
+
+taught hpverb
+made hpverb
+exploited hpverb
+
+^random adj
+^supercalifragilisticexpialidocious adj
+^happy adj
+^drunken adj
+^Soviet adj
+
+randomly adv
+happily adv
+swiftly adv
+quickly adv
