@@ -4,6 +4,9 @@
 #include <map>
 #include <vector>
 #include <ctime>
+#include <chrono>
+#include <thread>
+#include <ctime>
 using namespace std;
 
 /* Sample
@@ -523,7 +526,7 @@ string SenStart(int sen, int hpf, map<string, vector<string> > uwb) {
 
 int main() {
     std::srand(time(NULL));
-    std::system("clear");
+    
     
 
     map<string, vector<string> > uwb;
@@ -640,7 +643,7 @@ int main() {
     
     string wpk;
 
-    ifstream rpf ("Documents/SenGen/Preference.txt");
+    ifstream rpf ("Preference.txt");
     if (rpf.is_open())
   {
         string pref;
@@ -654,11 +657,11 @@ int main() {
     }
     rpf.close();
     
-    string loc = "Documents/SenGen/Wordpacks/";
+    string loc = "Wordpacks/";
     loc = loc + wpk;
 
     ifstream tst (loc + "/wordbase.txt");
-    if (tst.is_open()) tst.close(); else  {cout << "~FOUL WORKPACK LOCATION; TO DEFAULT~"; loc = "Documents/SenGen/Wordpacks/Default";}
+    if (tst.is_open()) tst.close(); else  {cout << "~FOUL WORKPACK LOCATION; TO DEFAULT~"; loc = "Wordpacks/Default";}
 
     ifstream rwb (loc + "/wordbase.txt");
     if (rwb.is_open())
@@ -750,15 +753,15 @@ int main() {
     }
     rwbt.close();
 
-    std::system("clear");
+    
     for (auto const vtype : uwb) {
       vector<string> temp = vtype.second;
       for (auto const x : temp) {
         std:cout << vtype.first << " " << x << "\n";
       }
     }
-    std::system("clear");
-    std::system("clear");
+    
+    
 
     //std::system("cd \"desktop/tools/visual studio codes/C++/Sentence Generator\"");
       
@@ -768,14 +771,14 @@ int main() {
     int hpf = rand() % 3;
     // hpf 0 = h, 1 = p, 2 = f;
     string sentence = SenStart(sen, hpf, uwb);
+    std::system("CLS");
     std::cout << sentence << "\n";
-    string t2s = "say " + sentence;
-    std::system(t2s.c_str());
-    ofstream wout ("Documents/SenGen/output.txt", std::ios_base::app);
+    ofstream wout ("output.txt", std::ios_base::app);
     if (wout.is_open())
   {
     wout << sentence << "\n\n";
   }
   wout.close();
+  std::this_thread::sleep_for(std::chrono::milliseconds(10000));
     std::cout << "\n~END~\n\n";
 }

@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
     std::srand(time(NULL));
-    std::system("clear");
+    std::system("CLS");
     cout << "SENGEN\nCreated by CWY1013HK 2020\nInterface Version : 2.3\n\n";
     int SetUp;
     cout << "SetUp [1/0] : ";
@@ -30,20 +30,21 @@ int main() {
     long attempts;
     cout << "\nAttempts : ";
     cin >> attempts;
-    std::system("clear");
+    std::system("CLS");
     while (attempts != 0) {
       long looper = 1;
       while (looper <= attempts) {
         cout << "Attempt " << looper << "\n";
-        std::system("\"./Documents/SenGen/generator\"");
+        std::system("cd \"Documents/SenGen\"");
+        std::system("\"generator.exe\"");
         std::this_thread::sleep_for(std::chrono::milliseconds(rand() % 1000 + 1000));
-        std::system("clear");
+        std::system("CLS");
         ++looper;
       }
       cout << "~DONE~\n\n";
       cout << "Attempts : ";
       cin >> attempts;
-      std::system("clear");
+      std::system("CLS");
     }
     cout << "~END~\n\n";
 }
