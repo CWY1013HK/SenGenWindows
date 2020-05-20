@@ -2,9 +2,7 @@ After download, put the whole folder (SenGenWindows) into the documents folder.
 The full path should look like this :
 ~/documents/SenGenWindows
 
-Either compile the items in the 'source' folder and move them into 'SenGenWindows'. or just use interface.exe. Move interface exe to wherever you want and customise it.
-
-Copy a version of interface, maybe add a logo, change the name, and put it somewhere you like.
+Either compile the items in the 'source' folder and move them into 'SenGenWindows'. or just use interface.exe. Duplicate interface exe to wherever you want and customise it.
 
 Click on the interface to test it. If it does not function properly, check if you are running MacOS X, have you deleted files, or placed it in the wrong directory.
 
