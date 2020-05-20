@@ -1,8 +1,8 @@
-After download, put the whole folder (SenGen) into the documents folder.
+After download, put the whole folder (SenGenWindows) into the documents folder.
 The full path should look like this :
-~/documents/SenGen
+~/documents/SenGenWindows
 
-Open terminal, cd to the folder location, and run 'chmod +x interface' and 'chmod +x generator'.
+Compile the items in the 'source' folder and move them into 'SenGenWindows'. Search for method if needed.
 
 Copy a version of interface, maybe add a logo, change the name, and put it somewhere you like.
 
