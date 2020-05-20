@@ -2,7 +2,7 @@ After download, put the whole folder (SenGenWindows) into the documents folder.
 The full path should look like this :
 ~/documents/SenGenWindows
 
-Compile the items in the 'source' folder and move them into 'SenGenWindows'. Search for method if needed.
+Either compile the items in the 'source' folder and move them into 'SenGenWindows'. or just use interface.exe. Move interface exe to wherever you want and customise it.
 
 Copy a version of interface, maybe add a logo, change the name, and put it somewhere you like.
 
