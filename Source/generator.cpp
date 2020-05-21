@@ -661,7 +661,7 @@ int main() {
     loc = loc + wpk;
 
     ifstream tst (loc + "/wordbase.txt");
-    if (tst.is_open()) tst.close(); else  {cout << "~FOUL WORKPACK LOCATION; TO DEFAULT~"; loc = "Wordpacks/Default";}
+    if (tst.is_open()) tst.close(); else  {cout << "~FOUL WORDPACK LOCATION; TO DEFAULT~"; loc = "Wordpacks/Default";}
 
     ifstream rwb (loc + "/wordbase.txt");
     if (rwb.is_open())
