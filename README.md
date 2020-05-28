@@ -1,5 +1,5 @@
 # SenGen
-A sentence generator I made in a few days with C++ for MacOS X, but now converted for Windows.
+A sentence generator I made in a few days with C++ for MacOS, but now converted for Windows.
 
 For detailed instructions on downloading the project and other stuff, read the .txt files in the 'Instructions' folder.
 
